@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+#logo{
+    background-image: url("pngamazon.png") ;
+    height: 50px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 22px;
+    margin-left: 12px;
+    
+    
+}
+.navbar{
+    background-color: #0F1111;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box2{
+    height: 22px;
+    width: 96px;
+    color: white;
+    margin-top: 8px;
+}
+
+.deliver{
+    color: #cccccc;
+    font-size:  12px;
+    margin-left: 40px;
+    
+    
+}
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+}
+
+
+.India{
+    font-size: 14px;
+    margin-left: 2px;
+    margin-top: -1px;
+    font-weight: 700;
+
+}
+.box3{
+    display: flex;
+   
+    /* margin-left: 80px; */
+    /* width: 800px; */
+   margin-top: 12px;
+    height: 38px;
+
+}
+.box3:hover{
+    border: 2px solid orange;
+    border-radius: 4px;
+}
+.searchic{
+   
+    height: 38px;
+    width: 38px;
+    background-color: rgb(228, 170, 62);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+
+.box3 input{
+    width: 780px;
+    font-size: 15px;
+}
+
+.box3 i{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+    
+}
+.sign{
+    color: white;
+    margin-top: 8px;
+    
+}
+.second{
+    font-size: 14px;
+    font-weight: 700;
+}
+span{
+    font-size: 12px;
+}
+.sign1{
+    
+    color: white;
+    margin-top: 13px;
+    display: flex;
+}
+.second1{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+.sign1 i{
+    font-size: 30px;
+}
+.border:hover{
+    border: 2px solid white ;
+
+}
+.panel{
+    display: flex;
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    align-items: center ;
+    justify-content: space-evenly;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.panelops{
+  display: flex;
+  width: 70%;
+}
+.deals{
+    float: right;
+    
+}
+.panelops p{
+    margin-left: 15px;
+
+}
+
+.image2{
+    background: url("main11.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    height: 18px;
+    background-color: white;
+    margin: 20px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 4px;
+    justify-content: flex-end;
+    width: 90%;
+
+}
+.msg a{
+    color: #007185;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 130px;
+}
+.msg a:hover{
+    color: rgb(204, 76, 76);
+  
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    
+    width: 23%;
+    height: 350px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 30px;
+}
+
+.boximg{
+    /* background-image: url('img1.jpg') ; */
+    background-size: contain cover;
+    width: 320px;
+    background-repeat: no-repeat;
+    height: 260px;
+    margin-top: 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.content{
+    margin-left:5px;
+    margin-right:14px;
+}
+.content h2{
+    margin-left:23px;
+}
+.see{
+    margin-left: 13px;
+    color: #007185;
+    margin-top: 12px;
+    width: 80px;
+   
+}
+.see:hover{
+    cursor: pointer;
+    color: orange;
+}
+.panelfoot{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+
+    cursor: pointer;
+}
+.panelfoot:hover{
+    background-color: rgb(146, 144, 144);
+}
+footer{
+    margin-top: 15px;
+}
+.panelfoot1{
+    background-color: #222f3d;
+    color: white;
+   height: 350px;
+   display: flex;
+   justify-content: space-evenly;
+  
+}
+.panelfoot1 u {
+    text-decoration: none;
+    margin-top: 35px;
+   
+}
+u a{
+    display: block;
+    font-size: 15px;
+    margin: 10px;
+
+}
+u a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.panelfoot1 u p{
+    font-weight: bold;
+    font-size:17px;
+    margin-left: 10px;
+}
+.logoama{
+    background-image: url("pngamazon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 58px;
+    width: 138px;
+    margin-top: 28px;
+}
+.panel3{
+    background-color:#222f3d;
+    border-top: 0.2px solid rgb(76, 72, 72);
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.country{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: 2px soild rgb(236, 232, 232);
+    padding: 20px;
+    
+}
+.country p{
+    border:1px solid #4c4949;
+    margin: 18px;
+    padding: 8px;
+   
+    font-size: 12px;
+ 
+}
+#usa img{
+    width: 18px;
+    height: 14px;
+}
+.sign img{
+    width: 18px;
+    height: 14px;
+    margin-top: 12px;
+}
+.mac{
+    display: flex;
+    margin-left: 3px;
+    margin-top: 12px;
+}
